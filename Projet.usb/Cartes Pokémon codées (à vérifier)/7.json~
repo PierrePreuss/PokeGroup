@@ -1,0 +1,37 @@
+{
+    "name": "Coxy",
+    "type": "PLANT",
+    "stage": "BASE",
+    "life_point": 60,
+    "abilities": [],
+    "attacks": [
+	{
+	    "energies": [
+		"PLANT",
+		"PLANT"
+	    ],
+	    "title": "Attaque Tournante",
+	    "text": "",
+	    "action": "",
+	    "value": {
+		"operator": "-",
+		"value": 20,
+		"supplement": "+"
+	    }
+	}
+    ],
+    "weakness": {
+	"type": "FIRE",
+	"value": {
+	    "operator": "x",
+	    "value": 2
+	}
+    },
+    "retreat_cost": 1,
+    "expansion": {
+	"name": "XY",
+	"card_number": 146
+    },
+    "card_number": 6,
+    "rarity": "Commune"
+}
